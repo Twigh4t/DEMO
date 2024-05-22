@@ -1,5 +1,5 @@
 # DEMO
-
+https://docs.google.com/document/d/1Mf6mRFieZmf3cWS8VsheKH3B7QdgvI89jPS-w5HHtHA/edit
 # МАСКИ ВОЗМОЖНО БУДУТ ДРУГИЕ
 
 # https://www.youtube.com/watch?v=D9nF4YB5NRE п 1.1
