@@ -1,36 +1,36 @@
 # DEMO
 
-МАСКИ ВОЗМОЖНО БУДУТ ДРУГИЕ
+# МАСКИ ВОЗМОЖНО БУДУТ ДРУГИЕ
 
-https://www.youtube.com/watch?v=D9nF4YB5NRE п 1.1
+# https://www.youtube.com/watch?v=D9nF4YB5NRE п 1.1
 
-https://www.youtube.com/watch?v=56o8LY2fl5I п 1.2
+# https://www.youtube.com/watch?v=56o8LY2fl5I п 1.2
 
-https://www.youtube.com/watch?v=6HOqEDV4fXM п 1.3
+# https://www.youtube.com/watch?v=6HOqEDV4fXM п 1.3
 
-https://www.youtube.com/watch?v=QEVgk0ZHtTA п 1.4
+# https://www.youtube.com/watch?v=QEVgk0ZHtTA п 1.4
 
-https://www.youtube.com/watch?v=MVCkT8nM9Bc п 1.5
+# https://www.youtube.com/watch?v=MVCkT8nM9Bc п 1.5
 
-https://www.youtube.com/watch?v=dMWsAg8fI90 п 1.6
+# https://www.youtube.com/watch?v=dMWsAg8fI90 п 1.6
 
-https://www.youtube.com/watch?v=_9wCHH9U070 п 2.1
+# https://www.youtube.com/watch?v=_9wCHH9U070 п 2.1
 
-https://youtu.be/jhVxV-VJwVE?si=vajg-yfW0ZnMsb7i п 2.2
+# https://youtu.be/jhVxV-VJwVE?si=vajg-yfW0ZnMsb7i п 2.2
 
-CLI (AltLinux) КЛИЕНТ
+# CLI (AltLinux) КЛИЕНТ
 
-HQ-R и BR-R (vESR) ЭТО РОУТЕРЫ
+# HQ-R и BR-R (vESR) ЭТО РОУТЕРЫ
 
-HQ-SRV и BR-SRV (AltServer) ЭТО СЕРВЕРЫ
+# HQ-SRV и BR-SRV (AltServer) ЭТО СЕРВЕРЫ
 
-ЗАДАНИЕ 1 МОДУЛЬ 1
+# ЗАДАНИЕ 1 МОДУЛЬ 1
 
-Пункт 1
+# Пункт 1
 
-А)
+# А)
 
-BR-R (HQ-R)
+# BR-R (HQ-R)
 
 configure - вход в режим конфигурации
 
@@ -42,9 +42,9 @@ comm - всегда после выхода писать чтоб сохрани
 
 confirm - подтвердить после comm
 
-——
+# ——
 
-CLI (/BR-SRV/HQ-SRV)
+# CLI (/BR-SRV/HQ-SRV)
 
 Запускаем консоль
 
@@ -54,9 +54,9 @@ hostnamectl set-hostname CLI (/BR-SRV/HQ-SRV)
 exec bash
 (ISP не меняем)
 
-Б)
+# Б)
 
-CLI (Графическая оболочка)
+# CLI (Графическая оболочка)
 
 Параметр соединение
 
@@ -66,7 +66,7 @@ CLI (Графическая оболочка)
 
 Серверы DNS 8.8.8.8
 
-терминал:
+# терминал:
 
 ip a - показывает все ip на устройстве 
 
@@ -74,9 +74,9 @@ ping 3.3.3.1
 
 ping ya.ru
 
-——
+# ——
 
-HQ-R
+# HQ-R
 
 configure
 
@@ -94,7 +94,7 @@ confirm
 
 ping 1.1.1.1
 
-—Второй интерфейс HQ-R—
+# —Второй интерфейс HQ-R—
 
 configure
 
@@ -110,9 +110,9 @@ comm
 
 confirm
 
-——
+# ——
 
-BR-R
+# BR-R
 
 configure
 
@@ -124,7 +124,7 @@ ip firewall disable
 
 exit
 
-—Второй интерфейс BR-R—
+# —Второй интерфейс BR-R—
 
 configure
 
@@ -142,9 +142,9 @@ confirm - подтвердить после comm
 
 ping 2.2.2.1
 
-——
+# ——
 
-BR-SRV
+# BR-SRV
 
 (IP) echo 172.16.100.2/28 > /etc/net/ifaces/ens192/ipv4address
 
